@@ -1,0 +1,20 @@
+.footer {
+    margin-top: 1.5rem;
+    border-top: white 1px solid;
+}
+.links-items{
+    margin-top: .8rem;
+}
+.links-item:before {
+    content: '|';
+    color: white;
+    margin-right: 10px;
+}
+
+.links-item a {
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}

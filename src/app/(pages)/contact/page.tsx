@@ -1,9 +1,16 @@
-import React from 'react';
+// @flow
+import * as React from 'react';
 
-function Page(props) {
+type Props = {};
+const Page = (props: Props) => {
     return (
-        <div>dsaf</div>
-    );
-}
+        <>
 
+            <section className="gameList">
+                <img src={`images/pages/contactus.png`} alt={''}/>
+            </section>
+
+        </>
+    );
+};
 export default Page;

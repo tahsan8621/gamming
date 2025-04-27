@@ -1,0 +1,89 @@
+.tabs-container {
+    width: 100%;
+}
+
+.tabs {
+    display: flex;
+    position: relative;
+    background: #292e34;
+}
+.tabs button{
+    color: white;
+}
+
+.tab {
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    padding: 10px;
+    width: 70px;
+}
+
+.tab.active {
+    font-weight: bold;
+    background: #505d66;
+}
+
+.tab-indicator {
+    position: absolute;
+    bottom: 0;
+    width: 25%;
+    height: 3px;
+    transition: left 0.3s ease-in-out;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Tab Content Container */
+.tab-contents {
+    display: flex;
+    width: 100%; /* 4 tabs, so 100% * 4 */
+    transition: transform 0.3s ease-in-out;
+}
+.tab-title{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 100%;
+
+}
+.tab-title:before{
+    content: '|';
+    padding-right: 6px;
+}
+/* Individual Tab Content */
+.tab-content {
+    flex: 0 0 100%;
+    min-width: 100%;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.list-items {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-item{
+    flex: 1 0 12.5%;
+    list-style: none;
+    text-align: center;
+    background: #292e34;
+    padding: .6rem;
+}
+.list-item img {
+    width: 40px;
+}
+
+.list-item a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.favorites-list{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 10px;
+}
+.captions{
+    padding: 10px;
+    background: #505d66;
+    color: #fff;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.feature-item{
+    width: 100%;
+    height: 185px;
+    overflow: hidden;
+}
+.feature-item a{
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+.feature-item a:hover img{
+    transform: scale(2);
+    transition: all 0.3s ease-in-out;
+}

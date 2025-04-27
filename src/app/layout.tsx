@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "@/app/components/Layouts/Header";
 import Sidebar from "@/app/components/Layouts/Sidebar";
+import Footer from "@/app/components/Layouts/Footer/Footer";
 
 export default function RootLayout({
 
@@ -16,10 +17,11 @@ export default function RootLayout({
             <main className={`main`}>
                 <Header/>
                 {children}
+                <Footer/>
             </main>
+
         </div>
 
-        <footer className="p-4 bg-gray-200 text-center">© 2025 My App</footer>
         </body>
         </html>
     );

@@ -1,0 +1,33 @@
+.announcement {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  img {
+    width: 25px;
+  }
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.marqueeContent {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+  color: white;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

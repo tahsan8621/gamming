@@ -1,0 +1,29 @@
+.featured-list{
+    display: flex;
+    overflow-y: scroll;
+    gap: 10px;
+}
+
+.feature-item{
+    flex:1 0 calc(240px);
+    height: 185px;
+    overflow: hidden;
+}
+.feature-item a{
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+.feature-item a:hover img{
+    transform: scale(2);
+    transition: all 0.3s ease-in-out;
+}
+.captions{
+    padding: 10px;
+    background: #505d66;
+    color: #fff;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

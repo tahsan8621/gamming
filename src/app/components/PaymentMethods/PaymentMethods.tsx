@@ -1,11 +1,9 @@
 // @flow
 import * as React from 'react';
 import "./PaymentMethods.css"
-type Props = {
 
-};
 
-export function PaymentMethods(props: Props) {
+export function PaymentMethods() {
     return (
         <div className="section-wrap">
             <h2 className="div-title">

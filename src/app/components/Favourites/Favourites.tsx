@@ -1,10 +1,8 @@
 // @flow 
 import * as React from 'react';
 import "./Favorites.css"
-type Props = {
-    
-};
-const Favourites = (props: Props) => {
+
+const Favourites = () => {
     return (
         <>
            <section className="section-wrap">

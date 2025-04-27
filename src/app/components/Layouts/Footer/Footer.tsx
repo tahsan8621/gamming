@@ -5,8 +5,7 @@ import {PaymentMethods} from "@/app/components/PaymentMethods/PaymentMethods";
 import {SocialCommunity} from "@/app/components/SocialCommunity/SocialCommunity";
 import OfficialPartner from "@/app/components/OfficialPartner/OfficialPartner";
 
-type Props = {};
-const Footer = (props: Props) => {
+const Footer = () => {
     return (
         <>
             <div className={`flex`}><PaymentMethods/></div>

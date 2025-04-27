@@ -3,10 +3,8 @@ import * as React from 'react';
 import {Banner} from "@/app/components/Banner/Banner";
 import {Filter} from "@/app/components/Filter/Filter";
 
-type Props = {
 
-};
-const Page = (props: Props) => {
+const Page = () => {
     return (
         <>
             <section className="banner grid">

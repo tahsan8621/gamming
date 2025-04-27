@@ -1,17 +1,17 @@
 // @flow
 import * as React from 'react';
 import './Filter.css';
-type Props = {};
 
-export function Filter(props: Props) {
+
+export function Filter() {
     return (
         <>
             <div className="filter-wrap">
                 <ul className="filter-items flex li-none">
-                    <li className="filter-item"><a className="btn" onClick={``}>Recommend</a></li>
-                    <li className="filter-item"><a className="btn" onClick={``}>latest</a></li>
-                    <li className="filter-item"><a className="btn" onClick={``}>favorite</a></li>
-                    <li className="filter-item"><a className="btn" onClick={``}>a-z</a></li>
+                    <li className="filter-item"><a className="btn" >Recommend</a></li>
+                    <li className="filter-item"><a className="btn" >latest</a></li>
+                    <li className="filter-item"><a className="btn" >favorite</a></li>
+                    <li className="filter-item"><a className="btn" >a-z</a></li>
                 </ul>
 
                 <div className="search">

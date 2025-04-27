@@ -1,8 +1,8 @@
 // @flow
 import * as React from 'react';
 import "./OfficialPartner.css"
-type Props = {};
-const OfficialPartner = (props: Props) => {
+
+const OfficialPartner = () => {
     return (
         <div className="section-wrap">
             <h2 className="div-title">official partner</h2>

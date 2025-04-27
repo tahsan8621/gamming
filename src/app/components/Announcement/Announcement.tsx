@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './Announcement.module.scss'
-function Announcement(props) {
+function Announcement() {
     return (
         <div className={`${Styles.announcement}`}>
             <img src={`images/icons/index-announcement-icon.svg`} alt={'announcement'}/>

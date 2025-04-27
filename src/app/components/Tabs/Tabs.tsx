@@ -368,7 +368,7 @@ const Tabs = () => {
         <div className="tabs-container">
             {/* Tabs Navigation */}
             <div className="tabs">
-                {tabs.map((tab, index) => (
+                {tabs.map((tab) => (
                     <div>
                         <button
                             key={tab.id}

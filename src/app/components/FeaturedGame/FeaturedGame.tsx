@@ -1,10 +1,8 @@
 // @flow
 import * as React from 'react';
 import "./FeaturedGame.css"
-type Props = {
 
-};
-const FeaturedGame = (props: Props) => {
+const FeaturedGame = () => {
     return (
         <>
             <section className="section-wrap">

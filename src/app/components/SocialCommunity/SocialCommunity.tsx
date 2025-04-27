@@ -1,9 +1,9 @@
 // @flow
 import * as React from 'react';
 import "./SocialCommunity.css"
-type Props = {};
 
-export function SocialCommunity(props: Props) {
+
+export function SocialCommunity() {
     return (
         <div className="section-wrap">
             <h2 className="div-title">community websites</h2>

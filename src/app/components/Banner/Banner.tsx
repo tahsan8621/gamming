@@ -1,11 +1,9 @@
 // @flow
 import * as React from 'react';
 import "./Banner.css"
-type Props = {
 
-};
 
-export function Banner(props: Props) {
+export function Banner() {
     return (
         <>
             <div className="bannerImage">

@@ -1,7 +1,7 @@
 import React from 'react';
 import Style from './sidebar.module.scss'
 
-function Sidebar(props) {
+function Sidebar() {
     return (
         <div>
             <div className={`${Style.sidebar}`}>
